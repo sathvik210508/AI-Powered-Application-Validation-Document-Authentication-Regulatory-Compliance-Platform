@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+venv/
+env/
+
+# Build outputs
+frontend/dist/
+dist/
+build/
+.cache/
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/__pycache__/
+backend/routers/__pycache__/
+backend/services/__pycache__/
+
+# SQLite database files (regenerates on startup)
+backend/aicte_smartvalidate.db
+*.db
+*.sqlite3
+
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+
+# IDE and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Antigravity IDE and logs
+.agents/
+.gemini/
